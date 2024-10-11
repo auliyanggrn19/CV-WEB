@@ -1,0 +1,563 @@
+.main-color {
+  background-color: rgb(158, 56, 114)!important;
+  font-family: 'Courier New', Courier, 'Franklin Gothic Medium';
+}
+  
+.custom-font {
+font-family:inherit;
+font-size: 18px;
+font-weight: bold;
+color: #bf397a; 
+}
+
+
+
+.navbar {
+font-family: 'Arial', sans-serif;
+padding: 15px;
+background-color: rgba(0, 0, 0, 0.7);
+border-radius: 10px;
+}
+
+.navbar-brand {
+font-size: 24px;
+color: #fff;
+font-weight: bold;
+}
+
+.navbar-nav {
+display: flex;
+justify-content: center; /* Centering the navigation items */
+align-items: center;
+flex-grow: 1; /* Allows the nav items to grow in the available space */
+}
+
+.navbar-nav .nav-item {
+margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+color: #fff;
+background-color: rgba(255, 255, 255, 0.2);
+padding: 10px 20px;
+border-radius: 30px;
+transition: background-color 0.3s ease, color 0.3s ease;
+cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover {
+background-color: #ffbfcb;
+color: #000;
+}
+
+.navbar-nav .nav-link.active {
+background-color: #ff6699;
+color: white;
+}
+
+/* Flexbox to move the 'Get In Touch' button to the right */
+.navbar .get-in-touch {
+margin-left: auto; /* Pushes this item to the far right */
+}
+
+/* Mobile view */
+.navbar-toggler {
+background-color: #ffffffbb;
+}
+
+@media (max-width: 992px) {
+.navbar-nav {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px;
+}
+
+.navbar .get-in-touch {
+  margin-left: 0;
+  margin-top: 10px;
+}
+}
+
+
+
+h1.display-4{
+font-family:initial;
+font-size: 38px;
+font-weight: bold;
+color: #06444f; 
+}
+
+.hero-section p {
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero-section {
+  font-family: 'Caveat', sans-serif;
+}
+.hero-section h1 {
+  font-weight: 700; 
+}
+.hero-section p {
+  font-weight: 400; 
+}
+
+
+/* Import Google Font for playful style */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Styling for the Florelly heading */
+.about-us h2 {
+font-family: 'Lobster', cursive; /* Menggunakan font yang playful */
+font-size: 48px; /* Ukuran font yang besar untuk penekanan */
+color: #ff69b4; /* Warna pink cerah untuk tampilan lucu */
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Efek bayangan teks */
+text-align: center;
+margin-bottom: 10px;
+}
+
+/* Optional: Add a decorative border around the heading */
+.about-us h2::before,
+.about-us h2::after {
+content: "✿";
+font-size: 24px;
+margin: 0 10px;
+color: #ffb6c1; /* Warna soft pink untuk dekorasi */
+}
+
+.about {
+background-color: #2c1313; /* Light pastel background */
+padding: 2rem 0; /* Vertical padding for the section */
+}
+
+.about h2 {
+font-family: 'Lobster', cursive; /* Fun cursive font */
+font-size: 3rem; /* Large size for main title */
+color: #ff6f61; /* Pastel coral color */
+text-align: center; /* Center the text */
+background: linear-gradient(90deg, #ffb3b3, #ff9e9e); /* Gradient effect */
+-webkit-background-clip: text; /* Clip background to text */
+-webkit-text-fill-color: transparent; /* Fill color transparent */
+margin-bottom: 20px; /* Space below the title */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.about h3 {
+font-family: 'Quicksand', sans-serif; /* Fun font for subtitle */
+font-size: 2.5rem; /* Size for the subtitle */
+color: #ff88b0; /* Light pink color */
+text-align: center; /* Center the text */
+margin-bottom: 15px; /* Space below the subtitle */
+background: linear-gradient(90deg, #ffb3b3, #ff6f61); /* Gradient effect */
+-webkit-background-clip: text; /* Clip background to text */
+-webkit-text-fill-color: transparent; /* Fill color transparent */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+
+.about-us {
+  background-color:rgb(158, 56, 114)!important; /* Light background for the section */
+  padding: 3rem 0;
+}
+
+.about-us h2, .about-us h3 {
+  font-family: 'Lobster', cursive; /* Playful and artistic font for titles */
+  color: #ff69b4; /* Pastel pink for headings */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+  text-align: center; /* Center text alignment */
+}
+
+.about-us h2 {
+  font-size: 48px; /* Larger font size for the main title */
+  margin-bottom: 30px;
+}
+
+.about-us h3 {
+  font-size: 36px; /* Slightly smaller subtitle */
+  margin-bottom: 40px;
+  color: #ffb6c1; /* Softer pink for subtitle */
+}
+
+/* Service Card Styling */
+.service-card {
+  background-color: #0d0d0d; /* White background for cards */
+  border-radius: 15px; /* Rounded corners for a friendly look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  padding: 2rem; /* Add padding inside cards */
+  margin-bottom: 2rem;
+}
+
+/* Card hover effect */
+.service-card:hover {
+  transform: translateY(-10px); /* Slightly lift the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Icons Styling */
+.service-card svg {
+  width: 50px; /* Larger icon size */
+  height: 50px;
+  color: #ff69b4; /* Pastel pink for the icons */
+  margin-bottom: 15px;
+}
+
+/* Title and Text for Cards */
+.service-card h5 {
+  font-family: 'Poppins', sans-serif; /* Modern and friendly font */
+  font-size: 22px; /* Playful size for card titles */
+  color: #ff69b4; /* Pink color for title */
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-family: 'Poppins', sans-serif; /* Easy-to-read font for text */
+  font-size: 16px; /* Standard size for paragraph text */
+  color: #cf6c9a; /* Light gray for text */
+  line-height: 1.5;
+}
+
+/* Pastel Background Colors for Each Card */
+.col-md-4:nth-child(1) .service-card {
+  background-color: #ffe4e1; /* Light pastel pink for the first card */
+}
+
+.col-md-4:nth-child(2) .service-card {
+  background-color: #e0f7fa; /* Light pastel mint for the second card */
+}
+
+.col-md-4:nth-child(3) .service-card {
+  background-color: #f5e1ff; /* Light pastel lavender for the third card */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .service-card {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/* Section Styling */
+.custom-font {
+font-family: inherit;
+font-size: 18px;
+font-weight: bold;
+color: #5c2a49; /* Changed to a darker shade */
+}
+
+.about-us p {
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+color: #444444; /* Changed to a darker color for readability */
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+.about-us h2 {
+font-family: 'Lobster', cursive;
+color: #ff69b4;
+text-shadow: 2px 2px 4px rgba(222, 57, 173, 0.3); /* Stronger shadow for emphasis */
+}
+
+#about-paragraph {
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+color: #fefefe; /* Changed to a darker color for readability */
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+#highlight-paragraph {
+font-family: 'Lobster', cursive;
+color: #f8cce2;
+text-shadow: 2px 2px 4px rgba(222, 57, 173, 0.3); /* Stronger shadow for emphasis */
+}
+
+/* Button Styling */
+.about-us .btn-success {
+background-color: #fac3eb; 
+color: #e3529f; 
+font-family: 'Poppins', sans-serif;
+border: none; 
+padding: 10px 20px; 
+border-radius: 30px; 
+font-size: 16px; 
+transition: background-color 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us .btn-success:hover {
+background-color: #fccdf2; /* Pink pastel on hover */
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+.about-us .row {
+display: flex;
+align-items: center; 
+}
+
+@media (max-width: 768px) {
+.about-us {
+  text-align: center; 
+}
+.about-us .btn-success {
+  width: 100%; 
+  margin-top: 20px;
+}
+}
+
+/featured/
+.products h2 {
+font-family: 'Lobster', cursive; /* Fun font for the title */
+font-size: 3rem; /* Adjust font size as needed */
+background: linear-gradient(90deg, #b7607b, #5b2245); /* Pink to Purple Gradient */
+-webkit-background-clip: text; /* Clip background to text */
+-webkit-text-fill-color: transparent; /* Fill color transparent */
+text-align: center; /* Center the title */
+margin-bottom: 30px; /* Space below the title */
+text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7); /* Soft shadow for a cute effect */
+}
+
+
+/GIFT/
+.gift-products h2 {
+font-family: 'Lobster', cursive; /* Fun font for the title */
+font-size: 3rem; /* Adjust font size as needed */
+background: linear-gradient(90deg, #b7607b, #5b2245); /* Pink to Purple Gradient */
+-webkit-background-clip: text; /* Clip background to text */
+-webkit-text-fill-color: transparent; /* Fill color transparent */
+text-align: center; /* Center the title */
+margin-bottom: 30px; /* Space below the title */
+text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7); /* Soft shadow for a cute effect */
+}
+
+
+/* TESTIMONI */
+/* Import Google Fonts for playful styling */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600&display=swap');
+
+/* Testimonials Section Styling */
+.testimonials {
+background-color: #f0f4f8; 
+padding: 3rem 0; 
+border-radius: 15px; 
+}
+
+/* Title Styling */
+.testimonials h2 {
+font-family: 'Lobster', cursive; 
+color: #ff69b4; 
+font-size: 36px; 
+margin-bottom: 30px; 
+}
+
+/* Testimonial Card Styling */
+.testimonial {
+background-color: #ffffff; 
+border: 2px solid #ffb3c1; /* Light pastel pink border */
+border-radius: 15px; /* Rounded corners for testimonial cards */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+position: relative; /* Positioning for pseudo-elements */
+padding: 20px; /* Padding inside the testimonial */
+transition: transform 0.3s ease; /* Smooth transition for hover effect */
+overflow: hidden; /* Ensure content does not overflow */
+}
+
+.testimonial:hover {
+transform: scale(1.03); /* Slightly enlarge on hover */
+}
+
+.testimonial p {
+font-family: 'Poppins', sans-serif; /* Clean and modern font */
+font-size: 16px; /* Size for testimonial text */
+color: #4a4a4a; /* Dark gray for better contrast */
+margin-bottom: 10px; /* Space below testimonial text */
+}
+
+/* Customer Name Styling */
+.testimonial .text-end {
+font-family: 'Poppins', sans-serif; /* Consistent font */
+font-weight: bold; /* Bold for customer names */
+color: #ff69b4; /* Pastel pink for customer names */
+}
+
+/* Decorative Effect (for left side) */
+.testimonial::before {
+content: '';
+position: absolute;
+width: 100%; /* Full width */
+height: 20px; /* Height for the decorative element */
+background: linear-gradient(90deg, rgba(255, 105, 180, 0.3), rgba(255, 255, 255, 0)); /* Pastel gradient */
+top: -10px; /* Position it above the card */
+}
+
+/* Decorative Effect (for right side) */
+.testimonial::after {
+content: '';
+position: absolute;
+width: 100%; /* Full width */
+height: 20px; /* Height for the decorative element */
+background: linear-gradient(90deg, rgba(255, 105, 180, 0.3), rgba(255, 255, 255, 0)); /* Pastel gradient */
+bottom: -10px; /* Position it below the card */
+}
+
+/* newsletter */
+/* Import Google Fonts for playful styling */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600&display=swap');
+
+/* Newsletter Section Styling */
+.newsletter {
+background-color: #fce8f6; /* Light pastel pink background */
+padding: 3rem 0; /* Vertical padding for the section */
+border-radius: 15px; /* Smooth rounded corners */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+position: relative; /* To position the background flower image */
+overflow: hidden; /* To hide overflow from the background image */
+}
+
+/* Background Flower Pattern */
+.newsletter::before {
+content: '';
+background-image: url('flower-pattern.png'); /* Ganti dengan path ke gambar pola bunga */
+background-size: cover; /* Menyesuaikan ukuran gambar dengan section */
+position: absolute; /* Memposisikan pola di belakang konten */
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0.1; /* Mengatur transparansi untuk tampilan halus */
+z-index: 1; /* Memastikan gambar di belakang konten */
+}
+
+/* Title Styling */
+.newsletter h2 {
+font-family: 'Lobster', cursive; /* Fun font for the title */
+color: #ff69b4; /* Pastel pink for the title */
+font-size: 36px; /* Larger size for emphasis */
+margin-bottom: 20px; /* Space below the title */
+position: relative; /* To position above the background */
+z-index: 2; /* Ensures title appears above background */
+}
+
+/* Paragraph Styling */
+.newsletter p {
+font-family: 'Poppins', sans-serif; /* Clean font for readability */
+color: #4a4a4a; /* Dark gray for better contrast */
+font-size: 18px; /* Size for paragraph text */
+margin-bottom: 30px; /* Space below the paragraph */
+position: relative; /* To position above the background */
+z-index: 2; /* Ensures paragraph appears above background */
+}
+
+/* Form Styling */
+.newsletter form {
+display: flex; /* Flexbox for aligning items */
+justify-content: center; /* Center items horizontally */
+}
+
+/* Input Field Styling */
+.newsletter .form-control {
+border-radius: 25px; /* Rounded corners */
+border: 1px solid #ff69b4; /* Pink border */
+padding: 10px 20px; /* Padding for input */
+font-size: 16px; /* Font size for input */
+margin-right: 10px; /* Space between input and button */
+}
+
+/* Button Styling */
+.newsletter .btn-primary {
+background-color: #ffb3c1; /* Pastel pink button color */
+border: none; /* Remove border */
+border-radius: 25px; /* Rounded corners */
+padding: 10px 20px; /* Padding for button */
+font-size: 16px; /* Font size for button */
+transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+z-index: 2; /* Ensures button appears above background */
+}
+
+/* Button Hover Effect */
+.newsletter .btn-primary:hover {
+background-color: #ff69b4; /* Darker pink on hover */
+color: white; /* White text on hover */
+}
+
+
+/* get in touch */
+/* Import Google Fonts for playful styling */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
+/* Get in Touch Section Styling */
+.get-in-touch {
+  background-color: #fce4ec; /* Light pink background */
+  padding: 4rem 0; /* Vertical padding for the section */
+  border-radius: 15px; /* Smooth rounded corners */
+  position: relative; /* To position the background flower image */
+  overflow: hidden; /* To hide overflow from the background image */
+}
+
+/* Background Flower Pattern */
+.get-in-touch::before {
+  content: '';
+  background-image: url('flower-background.png'); /* Ganti dengan path ke gambar pola bunga */
+  background-size: cover; /* Menyesuaikan ukuran gambar dengan section */
+  position: absolute; /* Memposisikan pola di belakang konten */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.15; /* Mengatur transparansi untuk tampilan halus */
+  z-index: 1; /* Memastikan gambar di belakang konten */
+}
+
+/* Title Styling */
+.get-in-touch h2 {
+  font-family: 'Pacifico', cursive; /* Fun font for the title */
+  color: #ff4081; /* Pastel pink for the title */
+  font-size: 36px; /* Larger size for emphasis */
+  margin-bottom: 20px; /* Space below the title */
+  position: relative; /* To position above the background */
+  z-index: 2; /* Ensures title appears above background */
+}
+
+/* Form Label Styling */
+.get-in-touch .form-label {
+  font-family: 'Poppins', sans-serif; /* Clean font for readability */
+  color: #e91e63; /* Another pastel pink for labels */
+}
+
+/* Input and Textarea Styling */
+.get-in-touch .form-control {
+  border-radius: 25px; /* Rounded corners */
+  border: 1px solid #ff4081; /* Pink border */
+  padding: 10px 15px; /* Padding for input */
+  font-size: 16px; /* Font size for input */
+  margin-bottom: 20px; /* Space below inputs */
+  z-index: 2; /* Ensures inputs appear above background */
+}
+
+/* Button Styling */
+.get-in-touch .btn-primary {
+  background-color: #ff6f91; /* Pastel pink button color */
+  border: none; /* Remove border */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 16px; /* Font size for button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  z-index: 2; /* Ensures button appears above background */
+}
+
+/* Button Hover Effect */
+.get-in-touch .btn-primary:hover {
+  background-color: #ff3d6a; /* Darker pink on hover */
+  color: white; /* White text on hover */
+}
